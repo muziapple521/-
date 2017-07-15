@@ -1,0 +1,55 @@
+.index-tit{
+    font-size: 120px;
+    color: black;
+}
+.container img{
+    cursor: pointer;
+}
+.discovery_wrap{
+    padding: 25px 0  30px 0;
+    background-color: #fcfcfc;
+
+}
+.why_tit{
+    font-size:40px ;
+    line-height: 30px;
+    font-family: "ITC Caslon",Georgia,serif;
+}
+.main_contene_W{
+    background: white;
+
+
+}
+ .img_mar{
+     margin-top: 40px;
+     display: inline-block;
+ }
+nav .menu_detail .container a.item{
+     font-family: Nobel,sans-serif;
+     color: black;
+ }
+@media(min-width: 1024px)  {
+#container_top_stories,#container_vogue_daily,#container_content,#container_week,#discovery_wrap{
+    width: 77%;
+    margin-top:50px;
+}
+    #container_content{
+       padding-top: 50px;
+        padding-bottom:40px;
+    }
+    #container_content>div{
+    background-color: white;
+    margin-bottom: 40px;
+}
+    .img_mar{
+        margin-top: 60px;
+    }
+
+}
+@media(max-width: 1024px)  {
+    #container_content>div{
+        background-color: white;
+
+    }
+
+}
